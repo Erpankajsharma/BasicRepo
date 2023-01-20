@@ -7,5 +7,6 @@ public class ChangesInGithub {
 	@Test
 	public void changes() {
 		System.out.println("changes sucessfully");
+		
 	}
 }
