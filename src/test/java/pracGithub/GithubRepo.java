@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class GithubRepo {
 	
-	@Test
+	@Test(groups = "regression")
 	public void repo()
 	{
 		System.out.println("repo");

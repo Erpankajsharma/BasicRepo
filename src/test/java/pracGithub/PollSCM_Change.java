@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PollSCM_Change {
 	
-	@Test
+	@Test(groups = {"smoke", "regression"})
 	public void pollScmChange()
 	{
 		System.out.println("runs successfully.");

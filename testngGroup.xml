@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="tests">
+<groups>
+<run>
+<include name="smoke"></include>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="pracGithub.UpdateMadhu"/>
+      <class name="pracGithub.PollSCM_Change"/>
+      <class name="pracGithub.gitHubPractic123456"/>
+      <class name="pracGithub.GithubRepo"/>
+      <class name="pracGithub.UpdateRepo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
